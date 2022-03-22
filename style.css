@@ -24,6 +24,19 @@ a {
     font-weight: bold;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 html, body {
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -119,11 +132,6 @@ html, body {
     background-position: to bottom;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
 }
-
-
-
-
-
 
     /*footer*/
 .centralizado {
