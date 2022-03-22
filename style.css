@@ -15,29 +15,65 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 html, body {
     min-height: auto;
     background-color: aqua;
+    text-align: justify;
+    margin: 1em;
     
 }
 
 .titulo1 {
     font-family: var(--fonte1);
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
+    text-shadow: 3px 1px rgba(0, 0, 0, 0.363);
 }
 
 .titulo {
     font-family: var(--fonte1);
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
 }
 
 .data {
     font-family: var(--fonte2);
     font-size: 20px;
     text-align: center;
+}
+
+.picture {
+    border-radius: 5px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    display: block;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.52);
+}
+
+.texto {
+    letter-spacing: 1px;
+}
+
+
+
+
+    /*footer*/
+.centralizado {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.5px;
+    
 }
